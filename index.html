@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Score app</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+
+    <div class="header">
+        <h2 class="title">Erick Field</h2>
+    </div>
+
+    <div class="card-team">
+
+        <div class="RealMadrid-side">
+            <img src="./real madrid.webp" alt="">
+            <section>
+                <h1 class="RealMadrid-text">Real Madrid</h1>
+            </section>
+            <section>
+                <span id="RealMadrid-score"> 0 </span>
+            </section>
+
+            <section>
+                <button id="RealMadrid-btn-btn-goal" onclick="RealMadridGoal()">Goal</button>
+            </section>
+
+            <section>
+
+                <span id="RealMadrid-foul">0</span>
+            </section>
+
+            <section>
+                <button id="RealMadrid-btn-foul" onclick="RealMadridFoul()">Foul</button>
+            </section>
+        </div>
+
+        <div class="Barcelona-side">
+            <img src="./fcb.webp" alt="">
+            <h1 class="Barcelona-text">Barcelona</h1>
+            <section>
+                <span id="Barcelona-score"> 0 </span>
+            </section>
+
+            <section>
+                <button id="Barcelona-btn-btn-goal" onclick="Barcelona()">Goal</button>
+            </section>
+
+            <section>
+                <span id="Barcelona-foul"> 0 </span>
+            </section>
+
+            <section>
+                <button id="Barcelona-btn-foul" onclick="BarcelonaFoul()">Foul</button>
+            </section>
+        </div>
+        <section>
+            <button id="btn-reset" onclick="resetGoals()">Reset</button>
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
