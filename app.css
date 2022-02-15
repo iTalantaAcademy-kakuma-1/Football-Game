@@ -1,140 +1,139 @@
 .header {
-    font-weight: bold;
-    font-size: 35px;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .card-team {
-    
-    background-image:url('/image.jpg');
-    background-color: green;
-    justify-content: space-around;
-    height: 800px;
-    margin: 0;
+  background-image: url("/image.jpg");
+  background-color: green;
+  justify-content: space-around;
+  height: 800px;
+  margin: 0;
 }
 
 .RealMadrid-side img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
 .Barcelona-side img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
 #RealMadrid-btn-btn-goal {
-    background-color: white;
-    height: 50px;
-    width: 150px;
-    cursor: pointer;
-    border-radius: 8px;
-    position: relative;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 20px;
-    border: none;
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 20px;
+  border: none;
 }
 
 #RealMadrid-btn-foul {
-    background-color: white;
-    height: 50px;
-    width: 150px;
-    cursor: pointer;
-    border-radius: 8px;
-    position: absolute;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 20px;
-    border: none;
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 20px;
+  border: none;
 }
 
 #Barcelona-btn-btn-goal {
-    background-color: white;
-    height: 50px;
-    width: 150px;
-    cursor: pointer;
-    border-radius: 8px;
-    position: relative;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 20px;
-    border: none;
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 20px;
+  border: none;
 }
 
 #Barcelona-btn-foul {
-    background-color: white;
-    height: 50px;
-    width: 150px;
-    cursor: pointer;
-    border-radius: 8px;
-    position: absolute;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin: 20px;
-    border: none;
-}
-
-#btn-reset {
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    background-color:white;
-    cursor: pointer;
-    height: 50px;
-    width: 150px;
-    margin: 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 25px;
-    text-transform: uppercase;
-    
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 20px;
+  border: none;
 }
 
 .RealMadrid-side {
-    float: left;
-    /* background-color: green; */
-    margin-top: 30px;
-    height: 600px;
-    width: 564px;
-    text-align: center;
-    border-right: 2px solid white;
+  float: left;
+  /* background-color: green; */
+  margin-top: 30px;
+  height: 600px;
+  width: 564px;
+  text-align: Center;
+  border-right: 2px solid white;
 }
 
 .Barcelona-side {
-    float: right;
-    margin-top: 30px;
-    /* background-color: green; */
-    height: 600px;
-    width: 564px;
-    text-align: center;
-    border-left: 2px solid white;
+  float: right;
+  margin-top: -600px;
+  /* background-color: green; */
+  height: 600px;
+  width: 564px;
+  text-align: center;
+  border-left: 2px solid white;
 }
 
 #Barcelona-score {
-    color: white;
-    font-size: 45px;
+  color: white;
+  font-size: 45px;
 }
 
 #Barcelona-foul {
-    color: white;
-    font-size: 45px;
+  color: white;
+  font-size: 45px;
 }
 
 #RealMadrid-foul {
-    color: white;
-    font-size: 45px;
+  color: white;
+  font-size: 45px;
 }
 
 #RealMadrid-score {
-    color: white;
-    font-size: 45px;
+  color: white;
+  font-size: 45px;
 }
 
 h1 {
-    font-size: 35px;
-    color: white;
+  font-size: 35px;
+  color: white;
+}
+
+#btn-reset {
+  display: flex;
+  float: inline-end;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
 }
